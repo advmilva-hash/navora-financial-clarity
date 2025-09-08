@@ -38,7 +38,7 @@ const Results = () => {
       rating: 5
     },
     {
-      text: "O BPO da Návora me deu tempo para focar no crescimento. Não preciso mais me preocupar com planilhas - tudo fica organizado e sempre atualizado.",
+      text: "A Gestão Financeira Terceirizada da Návora me deu tempo para focar no crescimento. Não preciso mais me preocupar com planilhas - tudo fica organizado e sempre atualizado.",
       author: "João Santos",
       role: "Fundador, Green Energy Co.",
       rating: 5

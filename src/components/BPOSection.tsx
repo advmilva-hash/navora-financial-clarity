@@ -43,12 +43,12 @@ const BPOSection = () => {
           {/* Content */}
           <div className="order-1 lg:order-2">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-              O que é BPO Financeiro
+              O que é Gestão Financeira Terceirizada
             </h2>
             
             <div className="bg-gradient-accent p-6 rounded-xl shadow-accent mb-8">
               <p className="text-lg font-semibold text-accent-foreground leading-relaxed">
-                <strong>BPO Financeiro</strong> é a terceirização da gestão financeira, garantindo clareza, 
+                <strong>Gestão Financeira Terceirizada</strong> é a terceirização da gestão financeira, garantindo clareza, 
                 organização e tempo para o empresário focar no crescimento do seu negócio.
               </p>
             </div>
@@ -68,7 +68,7 @@ const BPOSection = () => {
         {/* Services Grid */}
         <div className="mt-16">
           <h3 className="text-3xl font-bold text-primary text-center mb-12">
-            Nossos Serviços de BPO
+            Nossos Serviços de Gestão Financeira Terceirizada
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (

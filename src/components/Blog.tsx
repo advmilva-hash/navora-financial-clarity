@@ -23,11 +23,11 @@ const Blog = () => {
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
-      title: "5 Sinais de que sua Empresa Precisa de BPO Financeiro",
+      title: "5 Sinais de que sua Empresa Precisa de Gestão Financeira Terceirizada",
       excerpt: "Identifique os indicadores que mostram quando é hora de terceirizar a gestão financeira do seu negócio.",
       author: "Equipe Návora",
       date: "05 Mar 2024",
-      category: "BPO Financeiro",
+      category: "Gestão Financeira Terceirizada",
       readTime: "6 min",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
@@ -42,7 +42,7 @@ const Blog = () => {
     }
   ];
 
-  const categories = ["Todos", "Precificação", "Fluxo de Caixa", "BPO Financeiro", "Gestão"];
+  const categories = ["Todos", "Precificação", "Fluxo de Caixa", "Gestão Financeira Terceirizada", "Gestão"];
 
   return (
     <section id="blog" className="py-20 bg-muted/30">

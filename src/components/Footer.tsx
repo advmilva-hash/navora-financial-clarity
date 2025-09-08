@@ -4,14 +4,14 @@ const Footer = () => {
   const quickLinks = [
     { name: "Home", href: "#home" },
     { name: "Quem Somos", href: "#quem-somos" },
-    { name: "BPO Financeiro", href: "#bpo" },
+    { name: "Gestão Financeira Terceirizada", href: "#bpo" },
     { name: "Método 4PC", href: "#metodo" },
     { name: "Blog", href: "#blog" },
     { name: "Contato", href: "#contato" }
   ];
 
   const services = [
-    "BPO Financeiro",
+    "Gestão Financeira Terceirizada",
     "Fluxo de Caixa",
     "Consultoria em Precificação",
     "Relatórios Estratégicos",

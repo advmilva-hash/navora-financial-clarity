@@ -37,7 +37,7 @@ const Hero = () => {
 
           <div className="mb-8">
             <Button variant="hero" size="xl" className="mb-6">
-              Quero conhecer o BPO da Návora
+              Quero conhecer a Gestão Financeira Terceirizada da Návora
             </Button>
           </div>
 

@@ -11,7 +11,7 @@ const About = () => {
     {
       icon: Eye,
       title: "Visão",
-      description: "Ser referência em BPO Financeiro, criando clareza onde existe confusão."
+      description: "Ser referência em Gestão Financeira Terceirizada, criando clareza onde existe confusão."
     },
     {
       icon: Heart,

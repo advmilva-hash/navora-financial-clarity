@@ -41,7 +41,7 @@ const CTAFinal = () => {
               size="xl" 
               className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-accent transform hover:scale-105 transition-bounce text-xl px-12 py-6"
             >
-              Quero contratar o BPO Návora
+              Quero contratar a Gestão Financeira Terceirizada Návora
               <ArrowRight className="w-6 h-6 ml-2" />
             </Button>
           </div>
