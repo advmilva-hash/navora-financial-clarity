@@ -1,4 +1,5 @@
 import { Instagram, Linkedin, Mail, Phone } from "lucide-react";
+import { siteConfig } from "@/config/site";
 
 const Footer = () => {
   const quickLinks = [
@@ -22,12 +23,12 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Instagram,
-      href: "https://instagram.com/josegrestaofinanceira",
+      href: siteConfig.social.instagram.jose,
       label: "@josegrestaofinanceira"
     },
     {
       icon: Instagram,
-      href: "https://instagram.com/milvafinancasparaempresas",
+      href: siteConfig.social.instagram.milva,
       label: "@milvafinancasparaempresas"
     },
     {
@@ -67,20 +68,20 @@ const Footer = () => {
               {/* Contact Info */}
               <div className="space-y-3">
                 <a 
-                  href="https://wa.me/5565993334113" 
+                  href={`https://wa.me/${siteConfig.phone.whatsapp}`}
                   className="flex items-center space-x-3 text-primary-foreground/90 hover:text-accent transition-smooth"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Phone className="w-5 h-5" />
-                  <span>(65) 99333.4113</span>
+                  <span>{siteConfig.phone.display}</span>
                 </a>
                 <a 
-                  href="mailto:contato@navora.digital.com.br" 
+                  href={`mailto:${siteConfig.email}`}
                   className="flex items-center space-x-3 text-primary-foreground/90 hover:text-accent transition-smooth"
                 >
                   <Mail className="w-5 h-5" />
-                  <span>contato@navora.digital.com.br</span>
+                  <span>{siteConfig.email}</span>
                 </a>
               </div>
             </div>

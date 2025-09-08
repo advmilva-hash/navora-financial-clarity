@@ -1,36 +1,37 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, Instagram, Linkedin, MapPin, Clock } from "lucide-react";
+import { siteConfig } from "@/config/site";
 
 const Contact = () => {
   const contactInfo = [
     {
       icon: Phone,
       title: "WhatsApp",
-      value: "(65) 99333.4113",
+      value: siteConfig.phone.display,
       description: "Atendimento direto e rápido",
-      link: "https://wa.me/5565993334113"
+      link: `https://wa.me/${siteConfig.phone.whatsapp}`
     },
     {
       icon: Mail,
       title: "E-mail",
-      value: "contato@navora.digital.com.br",
+      value: siteConfig.email,
       description: "Resposta em até 24 horas",
-      link: "mailto:contato@navora.digital.com.br"
+      link: `mailto:${siteConfig.email}`
     },
     {
       icon: Instagram,
       title: "Instagram",
       value: "@josegrestaofinanceira",
       description: "Dicas diárias de gestão",
-      link: "https://instagram.com/josegrestaofinanceira"
+      link: siteConfig.social.instagram.jose
     },
     {
       icon: Instagram,
       title: "Instagram",
       value: "@milvafinancasparaempresas",
       description: "Conteúdo especializado",
-      link: "https://instagram.com/milvafinancasparaempresas"
+      link: siteConfig.social.instagram.milva
     }
   ];
 
@@ -216,7 +217,7 @@ const Contact = () => {
                 className="bg-accent text-accent-foreground hover:bg-accent/90"
                 asChild
               >
-                <a href="https://wa.me/5565993334113" target="_blank" rel="noopener noreferrer">
+                <a href={`https://wa.me/${siteConfig.phone.whatsapp}`} target="_blank" rel="noopener noreferrer">
                   <Phone className="w-5 h-5 mr-2" />
                   Chamar no WhatsApp
                 </a>

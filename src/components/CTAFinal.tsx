@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle } from "lucide-react";
+import { siteConfig } from "@/config/site";
 
 const CTAFinal = () => {
   const benefits = [
@@ -57,14 +58,14 @@ const CTAFinal = () => {
               size="lg" 
               className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
             >
-              WhatsApp: (65) 99333.4113
+              WhatsApp: {siteConfig.phone.display}
             </Button>
             <Button 
               variant="outline" 
               size="lg" 
               className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
             >
-              contato@navora.digital.com.br
+              {siteConfig.email}
             </Button>
           </div>
 
