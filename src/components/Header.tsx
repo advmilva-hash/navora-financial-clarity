@@ -19,14 +19,12 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">N</span>
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-primary">Návora</h1>
-              <p className="text-xs text-muted-foreground">Inteligência Financeira</p>
-            </div>
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/3e9b9adf-a044-479f-a038-0fe567c34ac6.png" 
+              alt="Návora Inteligência Financeira" 
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
