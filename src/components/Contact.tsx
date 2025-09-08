@@ -36,7 +36,8 @@ const Contact = () => {
 
   const workingHours = [
     { day: "Segunda a Sexta", time: "08:00 - 18:00" },
-    { day: "Domingo", time: "Fechado" }
+    { day: "Sábado", time: "Sem expediente" },
+    { day: "Domingo", time: "Sem expediente" }
   ];
 
   return (
