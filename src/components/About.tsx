@@ -1,6 +1,5 @@
 import { Card } from "@/components/ui/card";
 import { Eye, Target, Heart } from "lucide-react";
-import joseImage from "@/assets/jose-real.jpg";
 
 const About = () => {
   const values = [
@@ -32,7 +31,7 @@ const About = () => {
       name: "José Francisco Mazzucco",
       role: "Administrador Financeiro",
       description: "CEO/CFO com 25+ anos de experiência e pós-graduação em Controladoria, especialista em crescimento sustentável.",
-      image: joseImage
+      image: "/lovable-uploads/06b295ef-d321-4852-8ca3-a128f526815c.png"
     }
   ];
 
