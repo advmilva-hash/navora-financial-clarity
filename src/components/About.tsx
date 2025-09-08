@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Eye, Target, Heart } from "lucide-react";
-import milvaImage from "@/assets/milva-portrait.jpg";
-import joseImage from "@/assets/jose-portrait.jpg";
+import milvaImage from "@/assets/milva-real.jpg";
+import joseImage from "@/assets/jose-real.jpg";
 
 const About = () => {
   const values = [
