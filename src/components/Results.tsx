@@ -56,12 +56,22 @@ const Results = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Resultados que Comprovam
+            👉 Do Caos Financeiro ao Crescimento Sustentável
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Mais de 200 empresários já transformaram seus negócios com a Návora. 
-            Conheça os resultados reais de quem saiu do achismo e chegou à certeza.
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6">
+            Muitos empresários chegaram até a Návora inseguros, sem clareza dos números e à beira de fechar as portas.
+            Com nossa gestão financeira, conquistaram organização, paz e abriram caminho para expandir seus negócios com confiança.
           </p>
+          <div className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="mb-4">
+              Histórias de transformação que começam com noites mal dormidas e contas desorganizadas…
+              e evoluem para empresas que não apenas sobreviveram, mas hoje planejam o futuro, abrem filiais e sonham grande sem medo.
+            </p>
+            <p>
+              Na Návora, não falamos apenas de finanças.
+              Falamos de clareza que gera paz hoje e de estratégia que constrói prosperidade amanhã.
+            </p>
+          </div>
         </div>
 
         {/* Hero Image */}
