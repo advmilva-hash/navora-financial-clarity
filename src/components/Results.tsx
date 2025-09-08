@@ -91,15 +91,9 @@ const Results = () => {
                 </div>
                 
                 {/* Testimonial */}
-                <blockquote className="text-muted-foreground leading-relaxed mb-6 italic">
+                <blockquote className="text-muted-foreground leading-relaxed italic text-center">
                   "{testimonial.text}"
                 </blockquote>
-                
-                {/* Author */}
-                <div className="text-center">
-                  <div className="font-semibold text-primary">{testimonial.author}</div>
-                  <div className="text-sm text-muted-foreground">{testimonial.role}</div>
-                </div>
               </Card>)}
           </div>
         </div>
