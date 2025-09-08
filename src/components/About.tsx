@@ -30,7 +30,7 @@ const About = () => {
     {
       name: "José Francisco Mazzucco",
       role: "Administrador Financeiro",
-      description: "CEO/CFO com 25+ anos de experiência e pós-graduação em Controladoria, especialista em crescimento sustentável.",
+      description: "Eu sou o José Francisco Mazzucco. Tenho mais de 25 anos de experiência em gestão financeira e controladoria de negócios, sou formado em Administração Financeira, com pós-graduação em Controladoria e atuei como CEO e CFO de grandes empresas. Minha história começa no Rio Grande do Sul, onde meus pais tinham uma pequena empresa. Trabalhavam duro, mas sem gestão de caixa, sem clareza financeira. Quando vieram as crises, a falta de visão sobre os números levou o negócio à falência. Esse episódio marcou minha vida. Eu prometi a mim mesmo que buscaria o conhecimento que faltou para os meus pais e que ajudaria outros empreendedores a não passarem pela mesma dor. Hoje, depois de décadas liderando finanças em grandes corporações, meu propósito é democratizar essa clareza: levar aos pequenos e médios empresários as mesmas ferramentas de gestão financeira que sustentam os grandes negócios. Porque eu sei, na pele, o que acontece quando o empresário não enxerga o caixa… e sei também o poder transformador que surge quando ele conquista clareza, previsibilidade e segurança financeira.",
       image: "/lovable-uploads/06b295ef-d321-4852-8ca3-a128f526815c.png"
     }
   ];
