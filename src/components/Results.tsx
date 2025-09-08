@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Star, TrendingUp, Users, Award } from "lucide-react";
-import successImage from "@/assets/business-success.jpg";
+const successImage = "/lovable-uploads/17f74143-5f1c-452a-8d11-553d527e7be4.png";
 const Results = () => {
   const stats = [{
     icon: Star,
