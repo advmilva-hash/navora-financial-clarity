@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logoImage from "/lovable-uploads/3e9b9adf-a044-479f-a038-0fe567c34ac6.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +22,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/3e9b9adf-a044-479f-a038-0fe567c34ac6.png" 
+              src={logoImage} 
               alt="Návora Inteligência Financeira" 
               className="h-12 w-auto"
             />
