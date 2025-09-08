@@ -24,7 +24,7 @@ const About = () => {
     {
       name: "Milva Cavalheiro",
       role: "Contadora e Advogada",
-      description: "Especialista em finanças empresariais com vasta experiência em controladoria e gestão estratégica.",
+      description: "Eu sou a Milva Cavalheiro – contadora, advogada, mediadora, especialista em finanças para empresas e ex-consultora do SEBRAE. Tenho mais de 25 anos de experiência ajudando empreendedores a enxergarem seus números e tomarem decisões seguras. Venho de uma família de pequenos empresários do Paraná, que trabalharam duro, mas nunca souberam precificar corretamente ou organizar as finanças. Cresci vendo de perto os prejuízos do achismo financeiro: esforço sem retorno, noites sem dormir e sonhos que nunca se realizaram. Transformei essa dor em meu propósito de vida: ensinar empresários a prosperarem com clareza e segurança financeira, para que nenhum negócio precise fechar as portas por falta de gestão.",
       image: "/lovable-uploads/b2dc1879-45ad-4afb-98c9-c0ad311a4c24.png"
     },
     {
