@@ -1,6 +1,5 @@
 import { Card } from "@/components/ui/card";
 import { Eye, Target, Heart } from "lucide-react";
-import milvaImage from "@/assets/milva-real.jpg";
 import joseImage from "@/assets/jose-real.jpg";
 
 const About = () => {
@@ -27,7 +26,7 @@ const About = () => {
       name: "Milva Cavalheiro",
       role: "Contadora e Advogada",
       description: "Especialista em finanças empresariais com vasta experiência em controladoria e gestão estratégica.",
-      image: milvaImage
+      image: "/lovable-uploads/b2dc1879-45ad-4afb-98c9-c0ad311a4c24.png"
     },
     {
       name: "José Francisco Mazzucco",
