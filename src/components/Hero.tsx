@@ -57,6 +57,16 @@ const Hero = () => {
               "Do achismo à certeza."
             </p>
           </div>
+
+          {/* Biblical Quote */}
+          <div className="mt-8 border-l-4 border-accent pl-6">
+            <p className="text-lg text-primary-foreground/80 italic leading-relaxed">
+              "Pois qual de vós, querendo edificar uma torre, não se assenta primeiro a calcular os gastos, para ver se tem com que a acabar?"
+            </p>
+            <p className="text-sm text-accent font-medium mt-2">
+              Lucas 14:28 – ARA
+            </p>
+          </div>
         </div>
       </div>
     </section>
